@@ -44,15 +44,15 @@ Le script qui accompagne ce répertoire fait donc 18&nbsp;850 appels aux sites d
 
 En testant tous ces numéros, j'ai obtenu trois réponses différentes.
 
-### 404
+### `404`
 
-Le numéro d'identification n'a jamais été utilisé. C'est le code HTTP de réponse le plus courant que j'aie obtenu.
+Le numéro d'identification n'a jamais été utilisé. C'est le code HTTP de réponse le plus courant que j'aie obtenu, comme [ici](https://journalmetro.com/wp-json/wp/v2/posts/3202100).
 
-### 401
+### `401`
 
-Le numéro d'identification a déjà été utilisé, mais l'article n'a jamais été publié ou a été retranché.
+Le numéro d'identification a déjà été utilisé, mais l'article n'a jamais été publié ou a été retranché. En tous cas, on obtient le code `401`, ce qui signifie *Forbidden*, comme [ici](https://journalmetro.com/wp-json/wp/v2/posts/3202195).
 
-### 200
+### `200`
 
 Ça marche! Un article en ligne correspond à ce numéro. Je peux en extraire le contenu aux fins de cette recherche, incluant l'image principale utilisée par l'article, car l'IA dans la génération des images est également un enjeu dans la relance de ce média.
 
