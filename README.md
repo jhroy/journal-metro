@@ -42,3 +42,18 @@ Le script qui accompagne ce répertoire fait donc 18&nbsp;850 appels aux sites d
 
 ## Trois types de réponse possibles
 
+En testant tous ces numéros, j'ai obtenu trois réponses différentes.
+
+### 404
+
+Le numéro d'identification n'a jamais été utilisé. C'est le code HTTP de réponse le plus courant que j'aie obtenu.
+
+### 401
+
+Le numéro d'identification a déjà été utilisé, mais l'article n'a jamais été publié ou a été retranché.
+
+### 200
+
+Ça marche! Un article en ligne correspond à ce numéro. Je peux en extraire le contenu aux fins de cette recherche.
+
+Mon code génère un fichier CSV. Je ne le publie pas dans ce répertoire, car le contenu du journal, même s'il est en grande partie (plus de le moitié du contenu et des articles ont été rédigés par un [**«&nbsp;Agent IA&nbsp;»**](https://journalmetro.com/auteur/miametro/)), est protégé par la *Loi sur le droit d'auteur* du Canada.
