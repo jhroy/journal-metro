@@ -38,7 +38,7 @@ Les intervalles considérés pour m'assurer de ne rater aucun article sont&nbsp;
 * Dans le cas du *Journal Métro* (Montréal), de 3202100 à 3213601 (ou 11&nbsp;000 possibilités)
 * Dans le cas de *Métro Québec*, de 395000 à 402351 (ou 7&nbsp;350 possibilités)
 
-Le script qui accompagne ce répertoire fait donc 18&nbsp;850 appels aux sites de Métro Média.
+Le [script qui accompagne ce répertoire (**metro.py**)](https://github.com/jhroy/journal-metro/blob/main/metro.py) fait donc 18&nbsp;850 appels aux sites de Métro Média.
 
 ## Trois types de réponse possibles
 
