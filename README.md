@@ -61,4 +61,10 @@ Le numéro d'identification a déjà été utilisé, mais l'article n'a jamais �
 
 ---
 
-Mon code génère un fichier CSV. Je ne le publie pas dans ce répertoire, car le contenu du journal, même s'il est en grande partie (plus de le moitié du contenu et des articles ont été rédigés par un [**«&nbsp;Agent IA&nbsp;»**](https://journalmetro.com/auteur/miametro/)), est protégé par la *Loi sur le droit d'auteur* du Canada.
+Mon code génère un fichier CSV. [Il est accessible dans ce répertoire](https://github.com/jhroy/journal-metro/blob/main/articlesMetro_pourGithub.csv).
+
+Mais je l'ai modifié ainsi :
+
+* J'ai retranché le contenu des articles car, même s'il est en grande partie (plus de le moitié du contenu et des articles ont été rédigés par un [**«&nbsp;Agent IA&nbsp;»**](https://journalmetro.com/auteur/miametro/)), il est protégé par la *Loi sur le droit d'auteur* du Canada.
+
+* J'ai ajouté une colonne (« mention ia dans texte ») pour signaler les textes qui se terminaient par une mention que le texte a été généré par l'IA. Cette mention est généralement celle-ci&nbsp;: *«&nbsp;Cet article a été produit par l’intelligence artificielle et édité par un journaliste. Veuillez consulter notre [Politique d’utilisation de l’intelligence artificielle à des fins journalistiques](https://journalmetro.com/politique-dutilisation-de-lintelligence-artificielle-du-journal-metro/) pour en savoir davantage sur nos pratiques concernant l’IA. Pour toute question, contactez Olivier Robichaud, rédacteur en chef, à l’adresse orobichaud@journalmetro.com.&nbsp;»*
