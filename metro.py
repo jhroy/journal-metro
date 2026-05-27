@@ -78,7 +78,7 @@ for journal in journaux:
 			except:
 				pass
 
-			infos = [p,cree,modif,url,titre,auteur,section1,section2,texte,nomImage,urlImage]
+			infos = [journal,p,cree,modif,url,titre,auteur,section1,section2,texte,nomImage,urlImage]
 			print(infos)
 
 			### ENREGISTREMENT DES DÉTAILS DANS LE FICHIER CSV
